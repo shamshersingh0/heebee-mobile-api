@@ -1,0 +1,31 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "heebee@2022",
+    "database": "heebee",
+    "host": "165.22.219.38",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "doadmin",
+    "password": "AVNS_wMFnt6tHbMc4dmNMtAR",
+    "database": "defaultdb",
+    "host": "test-db-postgresql-blr1-77692-do-user-11802338-0.b.db.ondigitalocean.com",
+    "dialect": "postgres",
+    "port": "25060",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "production": {
+    "username": "postgres",
+    "password": "HeebeeTest@2022Srte",
+    "database": "heebee",
+    "host": "157.245.96.40",
+    "dialect": "postgres"
+  }
+  
+}

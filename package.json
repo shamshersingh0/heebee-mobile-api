@@ -1,0 +1,36 @@
+{
+  "name": "heebee_backend_test",
+  "version": "1.0.0",
+  "description": "npm install\r <!-- sequelize install command -->\r npm install sequelize pg pg-hstore\r npm install -g sequelize-cli\r <!-- sequelize db create -->\r sequelize db:create\r <!-- sequelize table migrate command -->\r sequelize db:migrate\r <!-- sequelize model generate command -->\r sequelize model:generate --name category --attributes catId:string,name:string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PerryCR7/heebee_backend_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PerryCR7/heebee_backend_test/issues"
+  },
+  "homepage": "https://github.com/PerryCR7/heebee_backend_test#readme",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "fs": "^0.0.1-security",
+    "https-proxy-agent": "^5.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.4",
+    "otp-generator": "^4.0.0",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.16.1"
+  }
+}
